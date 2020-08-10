@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap');
+$primary-red: hsl(0, 36%, 70%);
+$primary-soft-red: hsl(0, 93%, 68%);
+$primary-dark-red:hsl(0, 6%, 24%);
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-position: center;
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+    background: url("../images/bg-pattern-desktop.svg");
+}
+header{
+    padding: 20px;
+    margin-bottom: 10px;
+ img{
+    width: 130px;
+}
+}
+.banner img{
+    width: 100%;
+}
+.main {
+    margin-top: 20px;
+    padding: 0px 20px;
+    background-size: auto;
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    color: $primary-dark-red;
+    span{
+        font-weight: lighter;
+        color: $primary-red;
+        font-weight: 300;
+    }
+}
+p{
+    color: $primary-red;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+}
+form{
+    width: 100%;
+    position: relative;
+    margin: 10px 0px;
+    input{
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        border: 1px solid $primary-red;
+        padding: 20px;
+        border-radius: 50px;
+        height: 50px;
+        outline: none;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+input::placeholder{
+    color: $primary-red;
+}
+    button{
+        position: absolute;
+        top:-1px;
+        right: -1px;
+        width: 71px;
+        height: 52px;
+        border-radius: 50px;
+        border: none;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        background: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+        outline: none;
+        box-shadow: 2px 5px 10px hsla(0, 36%, 70%, 0.5);
+        z-index: 4;
+}
+button:hover{
+   opacity: 0.8;
+}
+.err-image{
+    position: absolute;
+    top:13px;
+    right: 80px;
+    display: none;
+}
+.err-text{
+text-align: left;
+padding-left: 20px;
+color: $primary-soft-red;
+line-height: 5px;
+display: none;
+}
+}
+form.error {
+    input{
+        border: 2px solid $primary-soft-red;
+    }
+    .err-image{
+        display: block;
+    }
+    .err-text{
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 376px) {
+    header{
+        position: absolute;
+        margin-left: 15%;
+        top:30px;
+    }
+main{
+display: flex;
+place-items: center;
+    .banner{
+        order: 2;
+        flex: 1;
+        img{
+            height: 100vh;
+        }
+    }
+    .main{
+        order:1;
+        flex: 1.8;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content{
+            max-width: 400px;
+            h1{
+                text-align: left;
+                line-height: 2.5rem;
+            }
+            p{
+                text-align: left;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+form {
+    button{
+        width:90px;
+    }
+    .err-image{
+        right: 100px;
+    }
+}
+
+}
