@@ -142,7 +142,7 @@ form.error .err-text {
   display: block;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 600px) {
   header {
     position: absolute;
     margin-left: 15%;
