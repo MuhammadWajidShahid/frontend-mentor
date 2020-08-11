@@ -1,4 +1,4 @@
-# Chalange completed By Muhammad Wajid Shahid visit live [here]:(https://base-apparel-rho.vercel.app/)
+# Challenge completed By Muhammad Wajid Shahid visit live [here](https://frontend-mentor-wheat.vercel.app/base-apparel-coming-soon-master/index.html)
 # Frontend Mentor - Base Apparel coming soon page
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
