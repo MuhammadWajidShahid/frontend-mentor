@@ -146,7 +146,10 @@ form.error .err-text {
   header {
     position: absolute;
     margin-left: 15%;
-    top: 30px;
+    top: 40px;
+  }
+  header img {
+    width: 180px;
   }
   main {
     display: -webkit-box;
@@ -169,9 +172,9 @@ form.error .err-text {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    -webkit-box-flex: 1.8;
-        -ms-flex: 1.8;
-            flex: 1.8;
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -188,11 +191,13 @@ form.error .err-text {
   }
   main .main .content h1 {
     text-align: left;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
+    font-size: 50px;
+    margin-top: 100px;
   }
   main .main .content p {
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   form button {
     width: 90px;

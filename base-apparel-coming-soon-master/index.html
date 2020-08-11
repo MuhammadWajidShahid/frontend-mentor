@@ -19,12 +19,12 @@
       <img src="./images/logo.svg" alt="logo svg">
     </header>
     <main>
-      <section class="banner">
+      <div class="banner">
         <picture>
           <source media="(max-width: 375px)" srcset="./images/hero-mobile.jpg">
           <img src="./images/hero-desktop.jpg" alt="Chris standing up holding his daughter Elva">
         </picture>        
-      </section>
+      </div>
       <section class="main">
 <div class="content">
 
@@ -45,7 +45,9 @@
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
         <form id="form" onsubmit="HandleSubmit(event)">
-          <input type="text" name="email" id="email" placeholder="Email Address">
+          <label for="email">
+            <input type="text" id="email" placeholder="Email Address">
+          </label>
           <button type="submit"><img src="./images/icon-arrow.svg" alt="arrow"></button>
         <img src="./images/icon-error.svg" alt="err" class="err-image">
       <p class="err-text">Please provide a valid email</p>  

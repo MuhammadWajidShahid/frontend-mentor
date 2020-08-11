@@ -121,7 +121,10 @@ form.error {
     header{
         position: absolute;
         margin-left: 15%;
-        top:30px;
+        top:40px;
+        img{
+            width: 180px;
+        }
     }
 main{
 display: flex;
@@ -135,7 +138,7 @@ place-items: center;
     }
     .main{
         order:1;
-        flex: 1.8;
+        flex: 1.5;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -144,11 +147,13 @@ place-items: center;
             max-width: 400px;
             h1{
                 text-align: left;
-                line-height: 2.5rem;
+                line-height: 2.7rem;
+                font-size: 50px;
+                margin-top: 100px;
             }
             p{
                 text-align: left;
-                margin-bottom: 30px;
+                margin-bottom: 40px;
             }
         }
     }
